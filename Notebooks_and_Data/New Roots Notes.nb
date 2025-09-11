@@ -1,0 +1,431 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15113,        423]
+NotebookOptionsPosition[     11168,        354]
+NotebookOutlinePosition[     11574,        370]
+CellTagsIndexPosition[     11531,        367]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Here are the notes/data on the 4 new sets of roots found with rational values \
+for k.\
+\>", "Text",
+ CellChangeTimes->{{3.917538857198818*^9, 
+  3.9175388765533924`*^9}},ExpressionUUID->"65e3cfc7-e42a-1848-ad73-\
+d84a779298c4"],
+
+Cell[CellGroupData[{
+
+Cell["Root Set 1", "Section",
+ CellChangeTimes->{{3.917538917239418*^9, 
+  3.917538919732229*^9}},ExpressionUUID->"2bd9b04b-940b-2c4f-8fc6-\
+1462a3ed91d7"],
+
+Cell["\<\
+Definition - Has the real value of +/-2.2877e-5 for U1 = 20000, d = 400000, \
+c1 = 25000, c2 = 48500, g = 10 \
+\>", "Text",
+ CellChangeTimes->{{3.9175393112339287`*^9, 
+  3.917539377998804*^9}},ExpressionUUID->"9866861d-1f17-e240-9172-\
+aae44f5adc4a"],
+
+Cell[CellGroupData[{
+
+Cell["K dependence", "Subsection",
+ CellChangeTimes->{{3.917539277839367*^9, 
+  3.9175392795439243`*^9}},ExpressionUUID->"e4089f93-2869-a240-94c8-\
+fc47faf8a82c"],
+
+Cell["\<\
+Seems to have no k dependence on real part
+Seems to be directly dependent on k in imaginary part. Fitted equation gives \
+5164*k - 1.012e-11 (-1.161e-11, -8.618e-12)\
+\>", "Text",
+ CellChangeTimes->{{3.917539266878605*^9, 3.9175392951085205`*^9}, {
+  3.9175394855534134`*^9, 3.917539556355791*^9}, {3.917539818268255*^9, 
+  3.9175398186056843`*^9}},ExpressionUUID->"bcc540df-4996-d04a-9d60-\
+d308e3810877"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.9175392605215244`*^9, 
+  3.9175392634836273`*^9}},ExpressionUUID->"39571a42-1248-3d45-9598-\
+8940fad98b6b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Root Set 2", "Section",
+ CellChangeTimes->{{3.917538922821846*^9, 
+  3.917538925683771*^9}},ExpressionUUID->"004eca19-9ea6-9545-abc0-\
+46e578975f30"],
+
+Cell["\<\
+Definition - Has the real value of +/-7.4806e-6 for U1 = 20000, d = 400000, \
+c1 = 25000, c2 = 48500, g = 10 \
+\>", "Text",
+ CellChangeTimes->{{3.9175394029890823`*^9, 
+  3.9175394262804146`*^9}},ExpressionUUID->"3681dbdb-1274-744f-a949-\
+4d6675bbc4dc"],
+
+Cell[CellGroupData[{
+
+Cell["K dependence", "Subsection",
+ CellChangeTimes->{{3.917539579635792*^9, 
+  3.917539581820305*^9}},ExpressionUUID->"7b8ab7a1-b029-d547-8b86-\
+e022846de9c3"],
+
+Cell["\<\
+Seems to have no k dependence on real part
+Seems to be directly dependent on k in imaginary part. Fitted equation gives \
+-3.714e+5*k + 1.334e-10  (6.9e-11, 1.978e-10)\
+\>", "Text",
+ CellChangeTimes->{{3.917539593757757*^9, 3.917539648170641*^9}, {
+  3.917539800807331*^9, 
+  3.9175398040362167`*^9}},ExpressionUUID->"043fbfc1-6f26-a94c-b368-\
+e07ca24f00df"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Root Set 3", "Section",
+ CellChangeTimes->{{3.9175389287506657`*^9, 
+  3.9175389304943542`*^9}},ExpressionUUID->"f217e90f-a7fd-5948-8a98-\
+a7a63868aae3"],
+
+Cell["\<\
+Definition - Has the real value of +/-3.0257e-4 for U1 = 20000, d = 400000, \
+c1 = 25000, c2 = 48500, g = 10 \
+\>", "Text",
+ CellChangeTimes->{{3.9175394324566364`*^9, 
+  3.917539452133711*^9}},ExpressionUUID->"c83ee958-f69e-4845-a0ae-\
+0a3be6f74471"],
+
+Cell[CellGroupData[{
+
+Cell["K dependence", "Subsection",
+ CellChangeTimes->{{3.9175396627848263`*^9, 
+  3.9175396645800285`*^9}},ExpressionUUID->"9574a6c8-df51-e14f-b144-\
+9fb2e894beaf"],
+
+Cell["\<\
+Seems to have no k dependence on real part
+Seems to be directly dependent on k in imaginary part. Fitted equation gives \
+4.055e+05*k + 1.227e-10  (2.593e-11, 2.195e-10)\
+\>", "Text",
+ CellChangeTimes->{{3.9175396741837387`*^9, 3.917539697611952*^9}, {
+  3.917539809473606*^9, 
+  3.9175398123583107`*^9}},ExpressionUUID->"6c1f0027-4f8a-5d4f-b486-\
+3b465cb2cb89"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Root Set 4", "Section",
+ CellChangeTimes->{{3.91753893541168*^9, 
+  3.91753893789937*^9}},ExpressionUUID->"833c7ee9-c861-cf49-b380-\
+f5202a869ee0"],
+
+Cell["\<\
+Definition - Has the real value of +/-5.811e-6 for U1 = 20000, d = 400000, c1 \
+= 25000, c2 = 48500, g = 10 \
+\>", "Text",
+ CellChangeTimes->{{3.917539455748575*^9, 
+  3.917539477103754*^9}},ExpressionUUID->"888112b6-866c-aa4c-b6e2-\
+fadd4d08ebc5"],
+
+Cell[CellGroupData[{
+
+Cell["K dependence", "Subsection",
+ CellChangeTimes->{{3.9175397034341125`*^9, 
+  3.9175397056739407`*^9}},ExpressionUUID->"a797a0da-6199-d94b-8c66-\
+89c0a4e20a98"],
+
+Cell["\<\
+Seems to have no k dependence on real part
+Seems to be directly dependent on k in imaginary part. Fitted equation gives \
+-4.686e+05*k - 6.693e-10  (-7.424e-10, -5.962e-10)\
+\>", "Text",
+ CellChangeTimes->{
+  3.91753971460425*^9, {3.917539749402752*^9, 
+   3.917539814671585*^9}},ExpressionUUID->"df279dcc-40c4-804b-9c5f-\
+e62cf4d2c892"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Notes", "Section",
+ CellChangeTimes->{{3.917540159719532*^9, 
+  3.9175401628407383`*^9}},ExpressionUUID->"8d7b578c-5444-a94e-94af-\
+ab0a8987f433"],
+
+Cell["\<\
+It seems like these roots might not be real roots?
+When inserting root set 1 at k = 10 into the dispersion relation we obtained \
+-5.6170e+11 - 1.0378e+22i
+When inserting root set 2 at k = 10 into the dispersion relation we obtained \
+-4.9822e+13 + 4.7396e+08i
+When inserting root set 3 at k = 10 into the dispersion relation we obtained \
+-6.3737e+14 - 5.7900e+24i
+When inserting root set 4 at k = 10 into the dispersion relation we obtained \
+-8.0077e+13 + 2.1136e+22i
+For reference when inserting what we have seen as our correct roots we get \
+0.0000e+00 - 1.6780e+07i and 6.6650e-02 - 1.0486e+07i. Although they are not \
+exactly zero this may be due to the fact that there are rounding errors. 
+ 
+\
+\>", "Text",
+ CellChangeTimes->{{3.917540165812954*^9, 
+  3.9175403968220654`*^9}},ExpressionUUID->"7402d8b0-a67b-bc4b-926b-\
+d196ad77170e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Roots with cos dependence", "Section",
+ CellChangeTimes->{{3.9176886685733337`*^9, 
+  3.9176886767922516`*^9}},ExpressionUUID->"e38f57be-0464-1742-b984-\
+e01ad0aa64c3"],
+
+Cell["\<\
+Parameters used are k = 0.9, g =10, U1 = 20,000, d = 400,000, c1 = 25,000, c2 \
+= 50,000\
+\>", "Text",
+ CellChangeTimes->{{3.917691075487467*^9, 
+  3.917691116972809*^9}},ExpressionUUID->"c3cf7c02-0f69-5a4c-859d-\
+3b09e8b04ec3"],
+
+Cell["\<\
+KH  associated  root  seems  to  have  cos/cos^2  dependence for the real \
+component. The  fitted  equation  is:\
+\>", "Text",
+ CellChangeTimes->{{3.9176888580116215`*^9, 3.917688863371086*^9}, {
+   3.9176889390757046`*^9, 3.9176889972997284`*^9}, 3.917689316832817*^9, {
+   3.9176893599167347`*^9, 
+   3.917689362664118*^9}},ExpressionUUID->"fe5d1837-5879-0540-a6cf-\
+dd983446db45"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  FractionBox[
+   RowBox[{
+    RowBox[{"2.484", "e"}], "-", 
+    RowBox[{"5", "*", 
+     RowBox[{"cos", "(", "\[Theta]", ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"-", "5.76"}], "e"}], "-", "6"}], 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["cos", "2"], "(", "\[Theta]", ")"}], "-", 
+    RowBox[{"0.296", "*", 
+     RowBox[{"cos", "(", "\[Theta]", ")"}]}], "+", "0.01101"}]], 
+  TraditionalForm]],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"00a6b750-a4f0-9744-b178-6524d1aef46b"]], \
+"Text",
+ CellChangeTimes->{{3.9176890460316525`*^9, 
+  3.917689159836355*^9}},ExpressionUUID->"1d838014-5993-e14c-99ff-\
+aed10af90cef"],
+
+Cell["This should correspond to:", "Text",
+ CellChangeTimes->{{3.9176894684014244`*^9, 
+  3.9176894928789425`*^9}},ExpressionUUID->"f2447b5b-3e5d-3a48-9eb7-\
+d3d7e20eb74e"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"g", " ", "c2"}], 
+  RowBox[{"2", " ", "c1", " ", "d"}]]], "Text",
+ CellChangeTimes->{{3.9176896074570065`*^9, 
+  3.9176896278736916`*^9}},ExpressionUUID->"edb22ebb-8766-0249-946f-\
+d44c7b44d23b"],
+
+Cell["\<\
+RT associated root seems to have the same cosine dependence for the real \
+component. The fitted equation is:\
+\>", "Text",
+ CellChangeTimes->{{3.9176891669598675`*^9, 3.917689174876005*^9}, {
+  3.9176892991515484`*^9, 3.917689323571619*^9}, {3.9176893651511517`*^9, 
+  3.917689367755207*^9}},ExpressionUUID->"65232b50-18d0-6949-a8ee-\
+29d0f7b256f9"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  FractionBox[
+   RowBox[{
+    RowBox[{"2.999", "e"}], "-", 
+    RowBox[{"3", "*", 
+     RowBox[{"cos", "(", "\[Theta]", ")"}]}], "-", 
+    RowBox[{"5.346", "e"}], "-", "4"}], 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["cos", "2"], "(", "\[Theta]", ")"}], "+", 
+    RowBox[{"27.88", "*", 
+     RowBox[{"cos", "(", "\[Theta]", ")"}]}], "-", "3.781"}]], 
+  TraditionalForm]],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"d0b4c786-f817-8d42-83bd-978234bcc49d"]], \
+"Text",
+ CellChangeTimes->{{3.917689333641451*^9, 3.9176894209633255`*^9}, {
+  3.9176894560977745`*^9, 
+  3.9176894592934895`*^9}},ExpressionUUID->"7818790d-70b4-9b4a-ac6b-\
+22a8ed5dbe79"],
+
+Cell["This should correspond to", "Text",
+ CellChangeTimes->{{3.917689513973259*^9, 
+  3.917689517279049*^9}},ExpressionUUID->"fea94d8a-42c2-ad4b-b1a6-\
+d1f3f4e36343"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["g", "2"], 
+  RowBox[{"(", 
+   RowBox[{
+    FractionBox["1", "c1"], "-", 
+    FractionBox["1", "c2"]}], ")"}]}]], "Text",
+ CellChangeTimes->{{3.9176895226817894`*^9, 
+  3.9176895586974697`*^9}},ExpressionUUID->"5f3ad005-dbb9-7943-b698-\
+21ec608e4ca7"],
+
+Cell["\<\
+This root seems to have linear cos dependence in the imaginary component. The \
+fitted equation is\
+\>", "Text",
+ CellChangeTimes->{{3.9176908198303967`*^9, 
+  3.917690848189129*^9}},ExpressionUUID->"22d01c49-856f-ab45-a4f6-\
+4cbcfda2812f"],
+
+Cell["1.38 e5 * cos (\[Theta]) + 7.294 e - 13", "Text",
+ CellChangeTimes->{{3.917690853022194*^9, 
+  3.9176908749634914`*^9}},ExpressionUUID->"622a728c-e5f8-214a-be38-\
+009564ef9920"],
+
+Cell["This should correspond to", "Text",
+ CellChangeTimes->{{3.917690877517082*^9, 
+  3.917690883333227*^9}},ExpressionUUID->"0caa83d5-378c-3349-bf52-\
+3d464d9390f9"],
+
+Cell[BoxData[
+ RowBox[{"k", 
+  RowBox[{"(", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"c1", " ", "d"}], 
+     RowBox[{"c1", " ", "+", " ", "c2"}]], "+", "U1"}], ")"}]}]], "Text",
+ CellChangeTimes->{{3.9176909076827774`*^9, 3.9176909220998783`*^9}, 
+   3.9176911750583897`*^9},ExpressionUUID->"774b75af-2063-fc4c-845b-\
+75ff2715c8f8"],
+
+Cell["\<\
+The constant is so much smaller than the magnitude of the imaginary part \
+(10^4) that the imaginary part seems to go as \
+\>", "Text",
+ CellChangeTimes->{{3.9176911343666534`*^9, 
+  3.9176911704966545`*^9}},ExpressionUUID->"debe9563-dae2-1043-9e02-\
+530dc749f5ac"],
+
+Cell[BoxData[
+ RowBox[{"k", "*", "cos", 
+  RowBox[{"(", "\[Theta]", ")"}], 
+  RowBox[{"(", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"c1", " ", "d"}], 
+     RowBox[{"c1", " ", "+", " ", "c2"}]], "+", "U1"}], ")"}]}]], "Text",
+ CellChangeTimes->{{3.9176911810219364`*^9, 
+  3.9176912007465935`*^9}},ExpressionUUID->"bc6e0cf4-f19a-ed43-b095-\
+7bef69561336"]
+}, Open  ]]
+},
+WindowSize->{1440, 747.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"02ce241b-f7f6-5e45-9fc5-c9c615aa5a26"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 238, 6, 35, "Text",ExpressionUUID->"65e3cfc7-e42a-1848-ad73-d84a779298c4"],
+Cell[CellGroupData[{
+Cell[821, 30, 155, 3, 67, "Section",ExpressionUUID->"2bd9b04b-940b-2c4f-8fc6-1462a3ed91d7"],
+Cell[979, 35, 261, 6, 35, "Text",ExpressionUUID->"9866861d-1f17-e240-9172-aae44f5adc4a"],
+Cell[CellGroupData[{
+Cell[1265, 45, 162, 3, 54, "Subsection",ExpressionUUID->"e4089f93-2869-a240-94c8-fc47faf8a82c"],
+Cell[1430, 50, 416, 8, 58, "Text",ExpressionUUID->"bcc540df-4996-d04a-9d60-d308e3810877"],
+Cell[1849, 60, 146, 3, 35, "Text",ExpressionUUID->"39571a42-1248-3d45-9598-8940fad98b6b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2044, 69, 155, 3, 67, "Section",ExpressionUUID->"004eca19-9ea6-9545-abc0-46e578975f30"],
+Cell[2202, 74, 263, 6, 35, "Text",ExpressionUUID->"3681dbdb-1274-744f-a949-4d6675bbc4dc"],
+Cell[CellGroupData[{
+Cell[2490, 84, 160, 3, 54, "Subsection",ExpressionUUID->"7b8ab7a1-b029-d547-8b86-e022846de9c3"],
+Cell[2653, 89, 368, 8, 58, "Text",ExpressionUUID->"043fbfc1-6f26-a94c-b368-e07ca24f00df"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3070, 103, 159, 3, 67, "Section",ExpressionUUID->"f217e90f-a7fd-5948-8a98-a7a63868aae3"],
+Cell[3232, 108, 261, 6, 35, "Text",ExpressionUUID->"c83ee958-f69e-4845-a0ae-0a3be6f74471"],
+Cell[CellGroupData[{
+Cell[3518, 118, 164, 3, 54, "Subsection",ExpressionUUID->"9574a6c8-df51-e14f-b144-9fb2e894beaf"],
+Cell[3685, 123, 372, 8, 58, "Text",ExpressionUUID->"6c1f0027-4f8a-5d4f-b486-3b465cb2cb89"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4106, 137, 153, 3, 67, "Section",ExpressionUUID->"833c7ee9-c861-cf49-b380-f5202a869ee0"],
+Cell[4262, 142, 258, 6, 35, "Text",ExpressionUUID->"888112b6-866c-aa4c-b6e2-fadd4d08ebc5"],
+Cell[CellGroupData[{
+Cell[4545, 152, 164, 3, 54, "Subsection",ExpressionUUID->"a797a0da-6199-d94b-8c66-89c0a4e20a98"],
+Cell[4712, 157, 347, 8, 58, "Text",ExpressionUUID->"df279dcc-40c4-804b-9c5f-e62cf4d2c892"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5108, 171, 152, 3, 67, "Section",ExpressionUUID->"8d7b578c-5444-a94e-94af-ab0a8987f433"],
+Cell[5263, 176, 855, 18, 219, "Text",ExpressionUUID->"7402d8b0-a67b-bc4b-926b-d196ad77170e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6155, 199, 174, 3, 67, "Section",ExpressionUUID->"e38f57be-0464-1742-b984-e01ad0aa64c3"],
+Cell[6332, 204, 238, 6, 35, "Text",ExpressionUUID->"c3cf7c02-0f69-5a4c-859d-3b09e8b04ec3"],
+Cell[6573, 212, 394, 8, 35, "Text",ExpressionUUID->"fe5d1837-5879-0540-a6cf-dd983446db45"],
+Cell[6970, 222, 664, 20, 40, "Text",ExpressionUUID->"1d838014-5993-e14c-99ff-aed10af90cef"],
+Cell[7637, 244, 172, 3, 35, "Text",ExpressionUUID->"f2447b5b-3e5d-3a48-9eb7-d3d7e20eb74e"],
+Cell[7812, 249, 234, 6, 49, "Text",ExpressionUUID->"edb22ebb-8766-0249-946f-d44c7b44d23b"],
+Cell[8049, 257, 360, 7, 35, "Text",ExpressionUUID->"65232b50-18d0-6949-a8ee-29d0f7b256f9"],
+Cell[8412, 266, 695, 20, 40, "Text",ExpressionUUID->"7818790d-70b4-9b4a-ac6b-22a8ed5dbe79"],
+Cell[9110, 288, 167, 3, 35, "Text",ExpressionUUID->"fea94d8a-42c2-ad4b-b1a6-d1f3f4e36343"],
+Cell[9280, 293, 289, 9, 49, "Text",ExpressionUUID->"5f3ad005-dbb9-7943-b698-21ec608e4ca7"],
+Cell[9572, 304, 250, 6, 35, "Text",ExpressionUUID->"22d01c49-856f-ab45-a4f6-4cbcfda2812f"],
+Cell[9825, 312, 183, 3, 35, "Text",ExpressionUUID->"622a728c-e5f8-214a-be38-009564ef9920"],
+Cell[10011, 317, 167, 3, 35, "Text",ExpressionUUID->"0caa83d5-378c-3349-bf52-3d464d9390f9"],
+Cell[10181, 322, 334, 9, 50, "Text",ExpressionUUID->"774b75af-2063-fc4c-845b-75ff2715c8f8"],
+Cell[10518, 333, 275, 6, 35, "Text",ExpressionUUID->"debe9563-dae2-1043-9e02-530dc749f5ac"],
+Cell[10796, 341, 356, 10, 50, "Text",ExpressionUUID->"bc6e0cf4-f19a-ed43-b095-7bef69561336"]
+}, Open  ]]
+}
+]
+*)
+

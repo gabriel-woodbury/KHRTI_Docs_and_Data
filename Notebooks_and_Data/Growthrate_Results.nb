@@ -1,0 +1,191 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5830,        183]
+NotebookOptionsPosition[      5253,        165]
+NotebookOutlinePosition[      5657,        181]
+CellTagsIndexPosition[      5614,        178]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Asymptotic Behavior of Growthrate for 
+compressible combined RT-KH instability 
+at high difference in velocities\
+\>", "Title",
+ CellChangeTimes->{{3.871580321908517*^9, 3.871580390798031*^9}, {
+   3.871581313224246*^9, 3.8715813163238063`*^9}, {3.871581462086378*^9, 
+   3.87158148133917*^9}, {3.877015830734733*^9, 3.877015830894735*^9}, 
+   3.8770218071460686`*^9},ExpressionUUID->"1412daa8-5041-4274-926d-\
+b739d44c183c"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\[Gamma]", "=", 
+   RowBox[{
+    RowBox[{"\[PlusMinus]", " ", 
+     FractionBox[
+      RowBox[{"g", "*", 
+       SubscriptBox["c", "2"]}], 
+      RowBox[{"2", "*", 
+       SubscriptBox["c", "1"], "*", "d"}]]}], "-", 
+    RowBox[{"k", "*", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["U", "1"], "+", 
+       SubscriptBox["c", "1"]}], ")"}], "\[ImaginaryI]"}]}]}], 
+  " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[Gamma]", " "}], 
+    RowBox[{"Sqrt", "[", "kg", "]"}]], "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[PlusMinus]", " ", 
+      RowBox[{"Sqrt", "[", 
+       FractionBox["g", "k"], "]"}]}], "*", 
+     FractionBox[
+      SubscriptBox["c", "2"], 
+      RowBox[{"2", "*", 
+       SubscriptBox["c", "1"], "*", "d"}]]}], "-", " ", 
+    RowBox[{
+     RowBox[{"Sqrt", "[", 
+      FractionBox["k", "g"], "]"}], "*", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["U", "1"], "+", 
+       SubscriptBox["c", "1"]}], ")"}], "\[ImaginaryI]"}]}]}], 
+  " "}], "\[IndentingNewLine]", 
+ RowBox[{"\[Gamma]", " ", "=", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[PlusMinus]", 
+     FractionBox["g", "2"]}], "*", 
+    RowBox[{"(", 
+     RowBox[{
+      FractionBox["1", 
+       SubscriptBox["c", "1"]], "-", 
+      FractionBox["1", 
+       SubscriptBox["c", "2"]]}], ")"}]}], "-", 
+   RowBox[{"k", "*", 
+    RowBox[{"(", 
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SubscriptBox["c", "1"], "*", "d"}], 
+       RowBox[{
+        SubscriptBox["c", "1"], "+", 
+        SubscriptBox["c", "2"]}]], "+", 
+      SubscriptBox["U", "1"]}], ")"}], "\[ImaginaryI]"}]}]}]}], "Input",
+ CellChangeTimes->{{3.871580400853074*^9, 3.871580683125644*^9}, {
+   3.871580728755488*^9, 3.8715807503687925`*^9}, {3.877015371004789*^9, 
+   3.877015445891615*^9}, 
+   3.8770162830918612`*^9},ExpressionUUID->"9a57bc7d-b1e4-4d32-89a8-\
+c0d5fdf682e6"],
+
+Cell[TextData[{
+ "The first equation gives the growthrate for the least unstable mode, while \
+the second gives it for the most unstable mode. The variables are as follows, \
+\[Gamma] is the growthrate, g is the gravitation force acting on the fluid, k \
+is the x component of the wave vector, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["U", "1"], TraditionalForm]],ExpressionUUID->
+  "12f1f445-67bd-4dc9-a6c0-31015267f16b"],
+ " is the velocity of the top fluid, d is defined as  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["U", "2"], TraditionalForm]],ExpressionUUID->
+  "b82535e3-c258-453d-a502-8a695e3cfdca"],
+ "-",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["U", "1"], TraditionalForm]],ExpressionUUID->
+  "b675f475-8453-4eee-94b9-25c2862b26a1"],
+ " where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["U", "2"], TraditionalForm]],ExpressionUUID->
+  "fdc78979-a4c3-4f42-9620-9a32a7b82c13"],
+ " is the velocity of the bottom fluid, ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],ExpressionUUID->
+  "7b2efd0d-92d7-431f-810b-4064b2dbb5cd"],
+ " is defined as ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    FractionBox["P", 
+     SubscriptBox["\[Rho]", "1"]]], TraditionalForm]],ExpressionUUID->
+  "33bb5dd0-5a68-4285-9522-639d2a00127b"],
+ ", where P is the pressure at the interface and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Rho]", "1"], TraditionalForm]],ExpressionUUID->
+  "7be655ef-60d3-477c-9da9-25ce5030461b"],
+ " is the density in the top fluid, and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]],ExpressionUUID->
+  "9bf62769-f702-4d89-bcbe-b9b631fe3222"],
+ " is defined as ",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    FractionBox["P", 
+     SubscriptBox["\[Rho]", "2"]]], TraditionalForm]],ExpressionUUID->
+  "aaa05218-3d85-4ed3-a827-7b52610b4ae1"],
+ ", where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Rho]", "2"], TraditionalForm]],ExpressionUUID->
+  "69dd3cba-d635-4934-ae63-ee02279512e7"],
+ " is the density in the top fluid."
+}], "Text",
+ CellChangeTimes->{{3.8715808400173492`*^9, 3.871580992480152*^9}, {
+  3.8715810762887125`*^9, 3.871581187578389*^9}, {3.8715812642358727`*^9, 
+  3.871581387133788*^9}, {3.871581683812766*^9, 
+  3.871581695870109*^9}},ExpressionUUID->"dcb31bcc-94ec-4d55-a602-\
+ba37bfd3920a"]
+}, Open  ]]
+},
+WindowSize->{1428, 735.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1b039208-4bba-4718-8325-fd1fffe0bfd8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 435, 9, 222, "Title",ExpressionUUID->"1412daa8-5041-4274-926d-b739d44c183c"],
+Cell[1018, 33, 1923, 63, 128, "Input",ExpressionUUID->"9a57bc7d-b1e4-4d32-89a8-c0d5fdf682e6"],
+Cell[2944, 98, 2293, 64, 113, "Text",ExpressionUUID->"dcb31bcc-94ec-4d55-a602-ba37bfd3920a"]
+}, Open  ]]
+}
+]
+*)
+
